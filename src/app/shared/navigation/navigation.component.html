@@ -26,14 +26,14 @@
         <!-- menu list -->
         <ul class="main-menu">
           <!-- menu item -->
-          <li class="menu-item" routerLinkActive="current-menu-item" (click)="redirectTo('/')"><a>Home</a></li>
+          <li class="menu-item" routerLinkActive="current-menu-item" (click)="redirectTo('')"><a>Home</a></li>
           <!-- menu item -->
           <li class="menu-item menu-item-has-children">
             <a>Portfolio</a>
 
             <!-- sub menu -->
             <ul class="sub-menu">
-              <li *ngFor="let project of projects" class="menu-item"><a (click)="redirectTo('/projects/' + project.name)">
+              <li *ngFor="let project of projects" class="menu-item"><a (click)="redirectTo('projects/' + project.name)">
                 {{project?.name}}</a></li>
               </ul>
             <!-- sub menu end -->
@@ -42,11 +42,11 @@
           <!-- menu item -->
           <!-- <li class="menu-item"><a href="https://deployments.tomondre.com" target="_blank">Deployments</a></li> -->
           <!-- menu item -->
-          <li class="menu-item"><a (click)="redirectTo('/history')" routerLinkActive="menu-item current-menu-item">History</a></li>
+          <li class="menu-item"><a (click)="redirectTo('history')" routerLinkActive="menu-item current-menu-item">History</a></li>
           <!-- menu item -->
           <!-- <li class="menu-item"><a (click)="redirectTo('/certifications')"  routerLinkActive="menu-item current-menu-item">Certifications</a></li> -->
           <!-- menu item -->
-          <li class="menu-item"><a (click)="redirectTo('/contact')"  routerLinkActive="menu-item current-menu-item">Contact</a></li>
+          <li class="menu-item"><a (click)="redirectTo('contact')"  routerLinkActive="menu-item current-menu-item">Contact</a></li>
           <!-- menu item -->
         </ul>
         <!-- menu list end -->

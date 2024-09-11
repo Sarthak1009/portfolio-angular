@@ -12,8 +12,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'certifications', component: CertificateComponent},
-  { path: 'projects/:name', component: ProjectComponent }
-
+  { path: 'projects/:name', component: ProjectComponent },
+  {path: "**", redirectTo: "", pathMatch: "full"}
 ]
 
 

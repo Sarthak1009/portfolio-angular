@@ -18,7 +18,7 @@ export class NavigationComponent implements OnInit {
   ngOnInit(): void {
     var s = document.createElement("script");
     s.type = "text/javascript";
-    s.src = "/assets/js/navigation.custom.js";
+    s.src = "assets/js/navigation.custom.js";
     this.elementRef.nativeElement.appendChild(s);
 
   this.projects = this.projectService.getProjects();

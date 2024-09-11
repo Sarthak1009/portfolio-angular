@@ -39,10 +39,10 @@ export class ProjectsService {
         [
           new ProjectLink('GitHub', 'https://github.com/Sarthak1009/SocialApp', 'Code Repository'),
           new ProjectLink('Live Link', 'https://sarthak1009.github.io/SocialApp/', 'Deployment'),
-          new ProjectLink('SocialApp', '/assets/img/SocialApp_01.png', 'Image'),
-          new ProjectLink('SocialApp', '/assets/img/SocialApp_02.png', 'Image'),
-          new ProjectLink('SocialApp', '/assets/img/SocialApp_03.png', 'Image'),
-          new ProjectLink('SocialApp', '/assets/img/SocialApp_04.png', 'Image'),
+          new ProjectLink('SocialApp', 'assets/img/SocialApp_01.png', 'Image'),
+          new ProjectLink('SocialApp', 'assets/img/SocialApp_02.png', 'Image'),
+          new ProjectLink('SocialApp', 'assets/img/SocialApp_03.png', 'Image'),
+          new ProjectLink('SocialApp', 'assets/img/SocialApp_04.png', 'Image'),
         ]
       ),
       new Project(
@@ -61,11 +61,11 @@ export class ProjectsService {
         [
           new ProjectLink('Github', 'https://github.com/Sarthak1009/portfolio', 'Code Repo'),
           new ProjectLink('Live Link', 'https://sarthak1009.github.io/portfolio', 'Live Site'),
-          new ProjectLink('Portfolio Demo', '/assets/img/PorfolioDemo_01.png', 'Image'),
-          new ProjectLink('Portfolio Demo', '/assets/img/PortfolioDemo_02.png', 'Image'),
-          new ProjectLink('Portfolio Demo', '/assets/img/PorfolioDemo_03.png', 'Image'),
-          new ProjectLink('Portfolio Demo', '/assets/img/PorfolioDemo_04.png', 'Image'),
-          new ProjectLink('Portfolio Demo', '/assets/img/PortfolioDemo_05.png', 'Image'),
+          new ProjectLink('Portfolio Demo', 'assets/img/PorfolioDemo_01.png', 'Image'),
+          new ProjectLink('Portfolio Demo', 'assets/img/PortfolioDemo_02.png', 'Image'),
+          new ProjectLink('Portfolio Demo', 'assets/img/PorfolioDemo_03.png', 'Image'),
+          new ProjectLink('Portfolio Demo', 'assets/img/PorfolioDemo_04.png', 'Image'),
+          new ProjectLink('Portfolio Demo', 'assets/img/PortfolioDemo_05.png', 'Image'),
         ]
       ),
       new Project(

@@ -18,7 +18,7 @@ export class AboutMeComponent implements OnInit {
   ngOnInit(): void {
     var s = document.createElement("script");
     s.type = "text/javascript";
-    s.src = "/assets/js/about-me.custom.js";
+    s.src = "assets/js/about-me.custom.js";
     this.elementRef.nativeElement.appendChild(s);
   }
 

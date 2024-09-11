@@ -26,6 +26,6 @@ export class NavigationComponent implements OnInit {
 }
 
   redirectTo(uri:string){
-    window.location.href=uri
+    this.router.navigate([uri]);
   }
 }

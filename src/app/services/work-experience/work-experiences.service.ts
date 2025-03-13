@@ -41,6 +41,13 @@ export class WorkExperiencesService {
       new Responsibility("Participated in the entire software development lifecycle, from requirements gathering to deployment, and contributed to project planning and design discussions."),
       new Responsibility("Managed product release cycles."),
     ];
+    const Responsibilities4 = [
+      new Responsibility("Leading the front-end development of a web application using Angular in a Liferay environment, ensuring robust and scalable solutions."),
+      new Responsibility("Mentor and guide team members, assign tasks, and conduct regular status meetings to monitor progress and resolve issues effectively."),
+      new Responsibility("Migrated the existing code base from Angular to Liferay Angular Portlet."),
+      new Responsibility("Perform code reviews to ensure code quality and adherence to coding standards"),
+      new Responsibility("Participated in the entire software development lifecycle, from requirements gathering to deployment, and contributed to project planning and design discussions."),
+    ];
 
     const Links1 = [
       new Link("Company Website", "https://company1.com"),
@@ -83,11 +90,22 @@ export class WorkExperiencesService {
         "Angular Developer",
         "Illusion Dental Laboratory",
         "Full-time",
-        true, // isCurrent
+        false, // isCurrent
         new Date(2022, 8, 15), // Start date (April 10, 2022)
-        new Date(), // End date (current)
+        new Date(2024,8,23), // End date (current)
         Location1,
         Responsibilities3,
+        Links3
+      ),
+      new WorkExperience(
+        "Angular Developer",
+        "Supernal InfoTech",
+        "Full-time",
+        true, // isCurrent
+        new Date(2024, 8, 25), // Start date (April 10, 2022)
+        new Date(), // End date (current)
+        Location1,
+        Responsibilities4,
         Links3
       ),
     ];
